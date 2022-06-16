@@ -20,12 +20,11 @@ return(
 <NavbarComponent/>
 <Routes >
     <Route   path="/" element={<Home />} /> 
-    <Route   path="/about"  element={<About/>} />
     <Route   path="/update"  element={<Update />} />
     <Route   path="/testmonial"  element={<Testimonial/>}/> 
     <Route   path="/gallery"  element={<Gallery/>}/> 
     <Route   path="/contact"  element={<Contact/>} />
-    
+    <Route   path="/about"  element={<About/>} />
   </Routes>
 
 <Footer/>
