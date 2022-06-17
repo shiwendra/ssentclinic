@@ -1,42 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: "Muli",sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
 }
 
-
-.navbar{
-  background: #16222A;
-  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
-  background: linear-gradient(59deg, #3A6073, #16222A);
+.navbar {
+  background: #16222a;
+  background: -webkit-linear-gradient(59deg, #3a6073, #16222a);
+  background: linear-gradient(59deg, #3a6073, #16222a);
   color: white;
   /* margin-top:100px; */
- 
 }
-.navbar a{
+.navbar a {
   font-size: 1.3rem !important;
-  text-transform: capitalize ;
- 
-
+  text-transform: capitalize;
 }
-.menu_active{
+.menu_active {
   font-weight: bold;
   border-bottom: 1px solid lightgreen !important;
 }
-.navbar a:hover{
-  color: #FA944B !important;
+.navbar a:hover {
+  color: #fa944b !important;
 }
-@mediabcc(max-width:991px){
-  .navbar-brand{
-  fomnt-size:1.5rem !important;
+@mediabcc (max-width:991px) {
+  .navbar-brand {
+    fomnt-size: 1.5rem !important;
   }
 }
-.card_width{
+.card_width {
   width: 18rem !important;
 }
