@@ -1,7 +1,17 @@
 import React, { useState } from "react";
 import testimonialData from "./TestimonialData";
+import Pagination from "./Pagination";
 const Testimonial = () => {
   const [items, setItem] = useState(testimonialData);
+  const [pageIndex, setpageIndex] = useState(3);
+  const [pagination, setPagination] = useState({
+    start: 0,
+    end: pageIndex,
+  });
+  const onPaginationChange=(start,end)=>{
+    setPagination({start: start, end:end});
+ 
+  }
   return (
     <>
       <div className="container-fluid nav-bg bg-color:black">
@@ -14,8 +24,11 @@ const Testimonial = () => {
               Read Customer Reviews
             </h1>
           </div>
+          <div className="d-flex align-items-center justify-content-center">
+        <Pagination displayPerpage={pageIndex} onPaginationChange={onPaginationChange} totalnoOfRecord={items.length}></Pagination>
+      </div>
           <ul className="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
-            {items.map((data, index) => {
+            {items.slice(pagination.start,pagination.end).map((data, index) => {
               return (
                 <li>
                   <img
@@ -46,6 +59,9 @@ const Testimonial = () => {
               );
             })}
           </ul>
+          <div className="d-flex align-items-center justify-content-center">
+        <Pagination displayPerpage={pageIndex} onPaginationChange={onPaginationChange} totalnoOfRecord={items.length}></Pagination>
+      </div>
         </div>
       </div>
     </>
