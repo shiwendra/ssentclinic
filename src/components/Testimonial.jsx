@@ -21,7 +21,7 @@ const Testimonial = () => {
               className="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg"
               contenteditable="false"
             >
-              Read Customer Reviews
+              <u>Read Customer Reviews</u>
             </h1>
           </div>
           <div className="d-flex align-items-center justify-content-center">

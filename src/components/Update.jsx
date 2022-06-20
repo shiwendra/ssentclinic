@@ -13,7 +13,7 @@ const Update = () => {
         <div className="row">
           <div className="col-12 mx-auto">
             <div className="col-md-12 pt-5 pt-lg-0 order-2 order-1 my-2">
-              <h1>Updates</h1>
+              <h1 className="align-center"><u>Updates</u></h1>
               <Row xs={3} md={3} className="g-4">
                 {items.map((data, index) => {
                   return (

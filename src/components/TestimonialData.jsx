@@ -25,7 +25,7 @@ const testimonialData = [
   },
   {
     id: 4,
-    image: "https://bootdey.com/img/Content/avatar/avatar3.png",
+    image: "https://bootdey.com/img/Content/avatar/avatar4.png",
     name: "Marendra S",
     description:
       "Dr. Rahul Patil Sir is one of the best doctors with expertise. We really appreciate his way of treatment and genuine opinions with transparency in every procedure given to the patient. His punctuality and reliability in work is noteworthy. The procedure conducted by the doctor was extremely done in a systematic manner considering the comfort situation of the patient. We are fortunate to consult the doctor and suggest the clinic as the best one.",
@@ -33,7 +33,7 @@ const testimonialData = [
   },
   {
     id: 5,
-    image: "https://bootdey.com/img/Content/avatar/avatar3.png",
+    image: "https://bootdey.com/img/Content/avatar/avatar5.png",
     name: "Anurag D",
     description:
       "Dr. Rahul Patil Sir is one of the best doctors with expertise. We really appreciate his way of treatment and genuine opinions with transparency in every procedure given to the patient. His punctuality and reliability in work is noteworthy. The procedure conducted by the doctor was extremely done in a systematic manner considering the comfort situation of the patient. We are fortunate to consult the doctor and suggest the clinic as the best one.",
@@ -41,7 +41,7 @@ const testimonialData = [
   },
   {
     id: 6,
-    image: "https://bootdey.com/img/Content/avatar/avatar3.png",
+    image: "https://bootdey.com/img/Content/avatar/avatar6.png",
     name: "Rakesh T",
     description:
       "Dr. Rahul Patil Sir is one of the best doctors with expertise. We really appreciate his way of treatment and genuine opinions with transparency in every procedure given to the patient. His punctuality and reliability in work is noteworthy. The procedure conducted by the doctor was extremely done in a systematic manner considering the comfort situation of the patient. We are fortunate to consult the doctor and suggest the clinic as the best one.",

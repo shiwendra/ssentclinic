@@ -3,14 +3,15 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="row ">
+     
+
+      <div className="row">
+        <div className="col-12 mx-auto">
+        <div className="row container-fluid">
         <div class="col-1">
           <img src="images/new-logo.jpg" alt="Dr Rahul Patil"></img>
         </div>
       </div>
-
-      <div className="row">
-        <div className="col-12 mx-auto">
           <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
               <NavLink className="navbar-brand" to="/">
