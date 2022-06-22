@@ -33,26 +33,26 @@ const Pagination = ({
 
   return (
     <>
-      <nav aria-label="Page navigation example ">
+      <nav aria-label="Page navigation d-flex justify-content-between ">
         <ul className="pagination">
-        <li className="page-item">
+          <li className="page-item">
             <NavLink
+             title="Previous Post"
               className="page-link"
               to="#"
               onClick={() => onButtonClick("prev")}
             >
-              Previous
+              <i className="far fa-arrow-alt-circle-left fa-2x"></i>
             </NavLink>
           </li>
-         
-       
           <li className="page-item">
             <NavLink
+            title="Next Post"
               className="page-link"
               to="#"
               onClick={() => onButtonClick("next")}
             >
-              Next
+              <i className="far fa-arrow-alt-circle-right fa-2x"></i>
             </NavLink>
           </li>
         </ul>
