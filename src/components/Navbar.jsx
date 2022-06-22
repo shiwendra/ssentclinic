@@ -11,11 +11,11 @@ const Navbar = () => {
                 src="images/ENT_Logo.jpg"
                 alt="Dr Rahul Patil"
                 width={450}
-                height={150}
+                height={130}
               ></img>
           </div>
-          <div className="col text-align:right"> <i class="fa fa-phone fa-2x text-info" aria-hidden="true"></i> 098676 55815</div>
-          <div className="col"><i class="fa fa-envelope fa-2x text-info" aria-hidden="true"> </i> rahul.patil@gmail.com</div>
+          <div className="col text-align:right"><a href="tel:+91098676 55815"><i class="fa fa-phone fa-2x text-warning" aria-hidden="true"> 098676 55815</i></a> </div>
+          <div className="col"><a href="mailto: rahul.patil@gmail.com"><i class="fa fa-envelope fa-2x text-warning" aria-hidden="true"> rahul.patil@gmail.com</i> </a></div>
         </div>
           <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">

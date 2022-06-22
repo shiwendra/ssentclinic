@@ -7,7 +7,9 @@
   box-sizing: border-box;
   font-family: "Muli", sans-serif;
 }
-
+.text-info-c{
+  color: #16222a !important;
+}
 .navbar {
   background: #16222a;
   background: -webkit-linear-gradient(59deg, #3a6073, #16222a);
