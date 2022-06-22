@@ -6,12 +6,13 @@ const Navbar = () => {
      
 
       <div className="row">
-        <div className="col-12 mx-auto">
+        <div className="mx-auto">
         <div className="row container-fluid">
-        <div class="col-1">
-          <img src="images/new-logo.jpg" alt="Dr Rahul Patil"></img>
+        <div class="col-3">
+          <img src="images/ENT_Logo.jpg" alt="Dr Rahul Patil" width={450} height={150}></img>
+          
         </div>
-      </div>
+       </div>
           <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
               <NavLink className="navbar-brand" to="/">
