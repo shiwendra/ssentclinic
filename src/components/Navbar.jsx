@@ -3,16 +3,20 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-     
-
+      
       <div className="row">
-        <div className="mx-auto">
-        <div className="row container-fluid">
-        <div class="col-3">
-          <img src="images/ENT_Logo.jpg" alt="Dr Rahul Patil" width={450} height={150}></img>
-          
+      <div className="row">
+          <div className="col-6">
+          <img
+                src="images/ENT_Logo.jpg"
+                alt="Dr Rahul Patil"
+                width={450}
+                height={150}
+              ></img>
+          </div>
+          <div className="col text-align:right"> <i class="fa fa-phone fa-2x text-info" aria-hidden="true"></i> 098676 55815</div>
+          <div className="col"><i class="fa fa-envelope fa-2x text-info" aria-hidden="true"> </i> rahul.patil@gmail.com</div>
         </div>
-       </div>
           <nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
               <NavLink className="navbar-brand" to="/">
@@ -74,7 +78,7 @@ const Navbar = () => {
             </div>
           </nav>
         </div>
-      </div>
+      
     </>
   );
 };
