@@ -14,6 +14,7 @@ function CarouselMome() {
               src={data.image}
               alt={data.name}
               height={550}
+              onClick={()=>setItem(crData)}
             />
           </Carousel.Item>
         );
